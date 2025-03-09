@@ -4,7 +4,15 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { loadSlim } from "@tsparticles/slim";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 
-import { Home, About, Contact, Portfolio, Skills, Resume } from "./pages/index";
+import {
+  Home,
+  About,
+  Contact,
+  Portfolio,
+  Skills,
+  Resume,
+  Certificates,
+} from "./pages/index";
 import { Navbar } from "./components";
 import { options } from "./utils.ts/particle";
 
@@ -25,11 +33,11 @@ function App() {
     });
   }, []);
 
-  useEffect(()=>{
+  useEffect(() => {
     let path = location.pathname.replace(new RegExp("/", "g"), "");
-    if(path === "") path = "Yadgar's Portfolio";
+    if (path === "") path = "Yadgar's Portfolio";
     document.title = path.toUpperCase();
-  },[location.pathname])
+  }, [location.pathname]);
 
   return (
     <div className="App">
@@ -48,6 +56,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/certificates" element={<Certificates />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

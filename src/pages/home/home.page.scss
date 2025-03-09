@@ -22,6 +22,8 @@
             overflow: hidden;
             white-space: nowrap;
             animation: typingEffectAnimation 2.5s steps(30, end);
+            text-align: center;
+            text-wrap: wrap;
         }
     }
 

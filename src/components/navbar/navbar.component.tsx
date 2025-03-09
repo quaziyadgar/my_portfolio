@@ -10,6 +10,7 @@ const data = [
   { label: "SKILLS", to: "/skills" },
   { label: "RESUME", to: "/resume" },
   { label: "PORTFOLIO", to: "/portfolio" },
+  { label: "CERTIFICATES", to: "/certificates" },
   { label: "CONTACT", to: "/contact" },
 ];
 
