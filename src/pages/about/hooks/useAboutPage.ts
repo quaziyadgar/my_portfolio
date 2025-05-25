@@ -4,10 +4,14 @@
 //     }
 
 const today = new Date();
-    const birthDate = new Date('1997-08-01');
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDifference = today.getMonth() - birthDate.getMonth();
-    const currAge = (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate()))? age-- : age
+const birthDate = new Date("1997-08-01");
+let age = today.getFullYear() - birthDate.getFullYear();
+const monthDifference = today.getMonth() - birthDate.getMonth();
+const currAge =
+  monthDifference < 0 ||
+  (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ? age--
+    : age;
 
 export const useAboutPage = () => {
   const personalDetails = [
@@ -30,8 +34,13 @@ export const useAboutPage = () => {
     },
   ];
 
-  const jobSummary =
-    "Seasoned and independent Front End Developer with 3 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer";
+  const jobSummary = `Dedicated Full Stack Developer with 9 months of experience in React.js,
+TypeScript, and UI development, complemented by certifications in MERN
+stack, Data Structures & Algorithms DSA, Android Application Development,
+and MySQL. Skilled in building reusable components, optimizing user
+engagement by 20%, and delivering responsive web and mobile applications.
+Passionate about problem-solving and eager to contribute to innovative
+projects in a collaborative, Agile environment`;
 
-  return {personalDetails, jobSummary};
+  return { personalDetails, jobSummary };
 };

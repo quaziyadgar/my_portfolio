@@ -15,7 +15,7 @@ export const Home = () => {
         <h1>
           Hello, I'm Quazi Yadgar Husain
           <br />
-          Frontend Developer
+          Full Stack Developer
         </h1>
       </div>
       <Animate

@@ -1,12 +1,20 @@
-import ECommerce from "../assets/portfolioImages/ecommerce.jpg";
+import ECommerce from "../assets/portfolioImages/ecommerce.png";
 import Alumni from "../assets/portfolioImages/alumni.jpg";
 import Weather from "../assets/portfolioImages/weather-forcast.jpg";
 import TicTacToe from "../assets/portfolioImages/tic-tac-toe.jpg";
 import Timer from "../assets/portfolioImages/timer.jpg";
 import Workout from "../assets/portfolioImages/workout.jpg";
 import Telecom from "../assets/portfolioImages/telecom.png"
+import YoutubeClone from "../assets/portfolioImages/youtube-clone.png";
+import DecorAlmirah from "../assets/portfolioImages/decor-almirah.png"
 
 export const portfolioData = [
+  {
+    id: 2,
+    name: "Youtube Clone",
+    image: YoutubeClone,
+    link: "https://youtube-clone-bice-pi.vercel.app/",
+  },
   {
     id: 2,
     name: "E-Commerce",
@@ -48,5 +56,11 @@ export const portfolioData = [
     name: "Workout",
     image: Workout,
     link: "https://quaziyadgar.github.io/www.mygym.com/index.html",
+  },
+  {
+    id: 3,
+    name: "Decor Almirah",
+    image: DecorAlmirah,
+    link: "https://almirah-decor.vercel.app/",
   },
 ];

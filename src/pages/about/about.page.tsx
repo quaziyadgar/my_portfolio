@@ -25,7 +25,7 @@ export const About = () => {
             start={{ transform: "translateX(-900px)" }}
             end={{ transform: "translateX(0px)" }}
           >
-            <h3>Frontend Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>{jobSummary}</p>
             </Animate>
             <Animate

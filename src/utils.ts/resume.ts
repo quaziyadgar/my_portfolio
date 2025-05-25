@@ -7,7 +7,7 @@ export const expData = {
             place: "Bangalore",
             project: "DDE2.0",
             description:"User Experience, Component design, Api Integration",
-            duration:"Oct 2022 - Jun 2023",
+            duration:"Sept 2022 - Jun 2023",
         },
         {
             title:"Frontend Developer",

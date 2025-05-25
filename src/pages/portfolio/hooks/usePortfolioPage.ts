@@ -17,13 +17,13 @@ const filterData = [
 ];
 export const usePortfolioPage = () => {
   const [filteredValue, setFilteredValue] = useState(1);
-  const [hoveredValue, setHoveredValue] = useState(null);
+  const [hoveredValue, setHoveredValue] = useState<number|null>(null);
 
   const handleFilter = (id: number) => {
     setFilteredValue(id);
   };
 
-  const handleHover = (value: any) => {
+  const handleHover = (value: number|null) => {
     setHoveredValue(value);
   };
 
