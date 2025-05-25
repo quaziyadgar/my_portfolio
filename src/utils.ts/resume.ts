@@ -21,20 +21,12 @@ export const expData = {
     ],
     education: [
         {
-            title:"High School",
-            subTitle:"ST. Joseph's School Gorakhnath",
-            year: 2014,
+            title:"Post Graduation",
+            subTitle:"MMMUT University Gorakhpur",
+            year: 2022,
             place: "Gorakhpur UP,India",
-            course: "PCMB",
-            grade: "73.50%"
-        },
-        {
-            title:"Intermediate School",
-            subTitle:"Springer Public School Rajendra Nagar",
-            year: 2016,
-            place: "Gorakhpur UP,India",
-            course: "PCM",
-            grade: "69.40%"
+            course: "MCA",
+            grade: "74.8%"
         },
         {
             title:"Graduation",
@@ -45,12 +37,20 @@ export const expData = {
             grade: "61.90%"
         },
         {
-            title:"Post Graduation",
-            subTitle:"MMMUT University Gorakhpur",
-            year: 2022,
+            title:"Intermediate School",
+            subTitle:"Springer Public School Rajendra Nagar",
+            year: 2016,
             place: "Gorakhpur UP,India",
-            course: "MCA",
-            grade: "74.8%"
+            course: "PCM",
+            grade: "69.40%"
+        },
+        {
+            title:"High School",
+            subTitle:"ST. Joseph's School Gorakhnath",
+            year: 2014,
+            place: "Gorakhpur UP,India",
+            course: "PCMB",
+            grade: "73.50%"
         },
     ]
 }
